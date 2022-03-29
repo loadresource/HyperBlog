@@ -1,0 +1,37 @@
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+}
+.container{
+    border-radius:0 0 .5rem .5rem ;
+    border:.01rem solid grey;
+}
+.header{
+    display:flex;
+    padding-block:1rem;
+    font-family:"Roboto";
+    font-weight:bold;
+    color:white;
+    background-color: #0000f7cc;
+    box-shadow: 1px 1px 9px 2px #53537896;
+}
+
+.header .title{
+    margin-inline:1rem;
+    margin-block:0;
+}
+
+.header span{
+    display:inherit;
+    align-items:center;
+    margin:0;
+    padding:0;
+}
+
+.container h2,p{
+    color:grey;
+    font-family:Arial;
+    margin-inline:5rem 0;
+}
