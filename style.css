@@ -1,4 +1,5 @@
 html{
+    background:#35353b;
     font-size:62.5%;
 }
 body{
@@ -13,6 +14,7 @@ a{
 }
 
 .container{
+    background:white;
     border-radius:0 0 .5rem .5rem ;
     border:.01rem solid grey;
 }
@@ -29,8 +31,10 @@ a{
     margin-inline:1rem;
     margin-block:0;
 }
-
-.header span{
+.header h1>span{
+    margin-inline-end:1rem;
+}
+.header h1~span{
     display:inherit;
     align-items:center;
     margin:0;
