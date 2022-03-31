@@ -4,6 +4,14 @@ html{
 body{
     font-size:1.6rem;
 }
+
+a{
+    text-decoration:none;
+    color:darkred;
+}a:hover{
+    color:lightgreen;
+}
+
 .container{
     border-radius:0 0 .5rem .5rem ;
     border:.01rem solid grey;
@@ -15,7 +23,6 @@ body{
     font-weight:bold;
     color:white;
     background-color: #0000f7cc;
-    box-shadow: 1px 1px 9px 2px #53537896;
 }
 
 .header .title{
@@ -29,9 +36,25 @@ body{
     margin:0;
     padding:0;
 }
+.post-container{
+    padding-block:1rem;
+}
 
-.container h2,p{
+.post-container h2{
+    font-family:Arial;
+    margin-inline:5rem 0;
+}
+
+.post-container h2 ~ p{
     color:grey;
     font-family:Arial;
     margin-inline:5rem 0;
+}
+
+.piedepagina p {
+    font-family:arial;
+    margin-block:0 0;
+    padding-block:1rem;
+    background-color:grey;
+    text-align:center;
 }
